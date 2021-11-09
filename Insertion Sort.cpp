@@ -11,7 +11,7 @@ void InsertionSort(int a[], int n)
         /* Move elements of arr[0..i-1], that are
         greater than key, to one position ahead
         of their current position */
-        while (a[j] > key && j >= 0)
+        while (j >= 0 && a[j] > key )
         {
             a[j + 1] = a[j];
             j = j - 1;
