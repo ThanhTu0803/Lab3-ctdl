@@ -1,7 +1,7 @@
 #include <isostream>
 #include <time.h> 
 
-void BubbleSort(int a[], int n)
+void BubbleSort(int a[], int n) /*Function retrieved from: https://www.geeksforgeeks.org/bubble-sort/ */
 {
     bool swapped;
     for (int i = 0; i < n - 1; i++)
@@ -22,7 +22,7 @@ void BubbleSort(int a[], int n)
     }
 }
 
-void BubbleSort_Timing(int a[], int n)
+void BubbleSort_Timing(int a[], int n) /*Execution time measuring codes are retrieved from: https://www.stdio.vn/modern-cpp/do-luong-thoi-gian-thuc-thi-cua-ham-trong-c-H1oBHh*/
 {
     Start = clock();
     BubbleSort(a, n);
