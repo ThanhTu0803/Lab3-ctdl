@@ -24,7 +24,7 @@ void Heapify(int a[], int n, int i)
 void HeapSort(int a[], int n)
 {
     for (int i = n / 2 - 1; i >= 0; i--)
-        Heapify_Timing(a, n, i);
+        Heapify(a, n, i);
 
     for (int i = n - 1; i >= 0; i--)
     {
